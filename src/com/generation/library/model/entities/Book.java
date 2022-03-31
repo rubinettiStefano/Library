@@ -16,8 +16,10 @@ public class Book
 
     public String toString()
     {
-        return "Title: "+ title + "\nAuthor: "+ author;
+        return "Title: "+ title + "\nAuthor: "+ author+ "/nPrice: "+ price;
     }
+
+
 
     
 
