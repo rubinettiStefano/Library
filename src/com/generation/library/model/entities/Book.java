@@ -19,6 +19,9 @@ public class Book
         return "Title: "+ title + "\nAuthor: "+ author;
     }
 
-    
+    public int getNPages()
+    {
+        return nPages;
+    }
 
 }
