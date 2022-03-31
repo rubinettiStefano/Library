@@ -14,6 +14,11 @@ public class Book
         this.price = price;
     } 
 
+    public String toString()
+    {
+        return "Title: "+ title + "\nAuthor: "+ author;
+    }
+
     
 
 }
